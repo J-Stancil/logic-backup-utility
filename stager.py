@@ -29,7 +29,7 @@ class BackupStager:
 
         self.staging_root.mkdir(parents=True)
 
-        date_folder = datetime.now().strftime("%m.%d.%Y")
+        date_folder = datetime.now().strftime("%m.%d.%Y_%H-%M-%S")
         staging_run = self.staging_root / date_folder
         staging_run.mkdir()
 

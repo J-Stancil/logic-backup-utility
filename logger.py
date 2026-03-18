@@ -23,5 +23,8 @@ class BackupLogger:
 
         print(line)
 
+        # Ensure the log folder exists before trying to write the log file.
+        self.log_file.parent.mkdir(parents=True, exist_ok=True)
+
         with self.log_file.open("a", encoding="utf-8") as file:
             file.write(line + "\n")

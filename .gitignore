@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+backup_log.txt
+STAGING/
+.DS_Store

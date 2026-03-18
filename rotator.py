@@ -1,7 +1,7 @@
 """
 Rotation module.
 
-Deletes the previous verified backup only after a new backup succeeds.
+Deletes the oldest backups only after a new verified backup succeeds.
 """
 
 import shutil
@@ -15,11 +15,11 @@ class BackupRotator:
         self.logger = logger
 
     def rotate_old_backups(self, backup_root: Path, keep_count: int) -> None:
-        """
-        Keep only the newest backup folders based on folder name sorting.
-        """
-        backup_folders = [item for item in backup_root.iterdir() if item.is_dir()]
-        backup_folders.sort(reverse=True)
+        backup_folders = sorted(
+            [item for item in backup_root.iterdir() if item.is_dir()],
+            key=lambda p: p.stat().st_mtime,
+            reverse=True
+        )
 
         old_backups = backup_folders[keep_count:]
 

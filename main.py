@@ -2,7 +2,7 @@
 Logic Backup Utility Main Orchestrator
 """
 
-from pathlib import Path
+import shutil
 from config import *
 from logger import BackupLogger
 from scanner import BackupScanner
@@ -12,14 +12,14 @@ from manifest import BackupManifest
 from verifier import BackupVerifier
 from rotator import BackupRotator
 from notifier import BackupNotifier
+from pathlib import Path
 
 
 def run_backup():
-
-    log_file = STAGING_DIR / "backup_log.txt"
+    log_file = Path("backup_log.txt")
     logger = BackupLogger(log_file)
 
-    notifier = BackupNotifier(logger, "YOUR_EMAIL_HERE")
+    notifier = BackupNotifier(logger, "stancil.j@gmail.com")
 
     try:
         logger.log("Backup started")
@@ -47,6 +47,10 @@ def run_backup():
         rotator.rotate_old_backups(ICLOUD_BACKUP_ROOT, MAX_BACKUPS)
 
         notifier.send_success()
+
+        if STAGING_DIR.exists():
+            shutil.rmtree(STAGING_DIR)
+            logger.log("Staging directory removed after successful backup")
 
         logger.log("Backup completed successfully")
 
