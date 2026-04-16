@@ -1,4 +1,10 @@
+<p align="center">
+  <img src="logo.png" width="160">
+</p>
+
 # Logic Backup Utility
+
+Automated disaster recovery system for Logic Pro plugin and configuration environments.
 
 Automated macOS backup utility for Logic Pro workflow recovery.
 

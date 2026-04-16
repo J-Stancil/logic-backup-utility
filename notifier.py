@@ -13,6 +13,7 @@ class BackupNotifier:
     def __init__(self, logger: BackupLogger, email_address: str):
         self.logger = logger
         self.email_address = email_address
+        self.logo_path = Path(__file__).resolve().parent / "LOGO.png"
 
     def send_email(self, subject: str, body: str, attachment: Path | None = None) -> None:
         attachment_script = ""
@@ -42,15 +43,35 @@ class BackupNotifier:
 
     def send_success(self) -> None:
         self.logger.log("Sending success email")
+
+        body = """Logic Backup System
+
+Status: SUCCESS
+
+Backup completed and verified successfully.
+The latest backup set has been archived and staged cleanup has completed.
+"""
+
         self.send_email(
             subject="Logic Backup Success",
-            body="Backup completed and verified successfully."
+            body=body
         )
 
     def send_failure(self, log_file: Path) -> None:
         self.logger.log("Sending failure email")
+
+        body = """Logic Backup System
+
+Status: FAILURE
+
+The backup process did not complete successfully.
+See attached log for details.
+"""
+
         self.send_email(
             subject="Logic Backup Failure",
-            body="Backup failed. See attached log.",
+            body=body,
             attachment=log_file
         )
+
+        

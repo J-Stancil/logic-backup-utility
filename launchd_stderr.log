@@ -1,0 +1,144 @@
+Traceback (most recent call last):
+  File "/Users/jhs/logic-backup-app/main.py", line 14, in <module>
+    from notifier import BackupNotifier
+  File "/Users/jhs/logic-backup-app/notifier.py", line 12, in <module>
+    class BackupNotifier:
+  File "/Users/jhs/logic-backup-app/notifier.py", line 17, in BackupNotifier
+    def send_email(self, subject: str, body: str, attachment: Path | None = None) -> None:
+TypeError: unsupported operand type(s) for |: 'type' and 'NoneType'
+Traceback (most recent call last):
+  File "/Users/jhs/logic-backup-app/main.py", line 14, in <module>
+    from notifier import BackupNotifier
+  File "/Users/jhs/logic-backup-app/notifier.py", line 12, in <module>
+    class BackupNotifier:
+  File "/Users/jhs/logic-backup-app/notifier.py", line 18, in BackupNotifier
+    def send_email(self, subject: str, body: str, attachment: Path | None = None) -> None:
+TypeError: unsupported operand type(s) for |: 'type' and 'NoneType'
+Traceback (most recent call last):
+  File "/Users/jhs/logic-backup-app/main.py", line 14, in <module>
+    from notifier import BackupNotifier
+  File "/Users/jhs/logic-backup-app/notifier.py", line 12, in <module>
+    class BackupNotifier:
+  File "/Users/jhs/logic-backup-app/notifier.py", line 18, in BackupNotifier
+    def send_email(self, subject: str, body: str, attachment: Path | None = None) -> None:
+TypeError: unsupported operand type(s) for |: 'type' and 'NoneType'
+Traceback (most recent call last):
+  File "/Users/jhs/logic-backup-app/main.py", line 14, in <module>
+    from notifier import BackupNotifier
+  File "/Users/jhs/logic-backup-app/notifier.py", line 12, in <module>
+    class BackupNotifier:
+  File "/Users/jhs/logic-backup-app/notifier.py", line 18, in BackupNotifier
+    def send_email(self, subject: str, body: str, attachment: Path | None = None) -> None:
+TypeError: unsupported operand type(s) for |: 'type' and 'NoneType'
+Traceback (most recent call last):
+  File "/Users/jhs/logic-backup-app/main.py", line 14, in <module>
+    from notifier import BackupNotifier
+  File "/Users/jhs/logic-backup-app/notifier.py", line 12, in <module>
+    class BackupNotifier:
+  File "/Users/jhs/logic-backup-app/notifier.py", line 18, in BackupNotifier
+    def send_email(self, subject: str, body: str, attachment: Path | None = None) -> None:
+TypeError: unsupported operand type(s) for |: 'type' and 'NoneType'
+Traceback (most recent call last):
+  File "/Users/jhs/logic-backup-app/main.py", line 14, in <module>
+    from notifier import BackupNotifier
+  File "/Users/jhs/logic-backup-app/notifier.py", line 12, in <module>
+    class BackupNotifier:
+  File "/Users/jhs/logic-backup-app/notifier.py", line 18, in BackupNotifier
+    def send_email(self, subject: str, body: str, attachment: Path | None = None) -> None:
+TypeError: unsupported operand type(s) for |: 'type' and 'NoneType'
+Traceback (most recent call last):
+  File "/Users/jhs/logic-backup-app/main.py", line 14, in <module>
+    from notifier import BackupNotifier
+  File "/Users/jhs/logic-backup-app/notifier.py", line 12, in <module>
+    class BackupNotifier:
+  File "/Users/jhs/logic-backup-app/notifier.py", line 18, in BackupNotifier
+    def send_email(self, subject: str, body: str, attachment: Path | None = None) -> None:
+TypeError: unsupported operand type(s) for |: 'type' and 'NoneType'
+Traceback (most recent call last):
+  File "/Users/jhs/logic-backup-app/main.py", line 14, in <module>
+    from notifier import BackupNotifier
+  File "/Users/jhs/logic-backup-app/notifier.py", line 12, in <module>
+    class BackupNotifier:
+  File "/Users/jhs/logic-backup-app/notifier.py", line 18, in BackupNotifier
+    def send_email(self, subject: str, body: str, attachment: Path | None = None) -> None:
+TypeError: unsupported operand type(s) for |: 'type' and 'NoneType'
+Traceback (most recent call last):
+  File "/Users/jhs/logic-backup-app/main.py", line 14, in <module>
+    from notifier import BackupNotifier
+  File "/Users/jhs/logic-backup-app/notifier.py", line 12, in <module>
+    class BackupNotifier:
+  File "/Users/jhs/logic-backup-app/notifier.py", line 18, in BackupNotifier
+    def send_email(self, subject: str, body: str, attachment: Path | None = None) -> None:
+TypeError: unsupported operand type(s) for |: 'type' and 'NoneType'
+Traceback (most recent call last):
+  File "/Users/jhs/logic-backup-app/main.py", line 14, in <module>
+    from notifier import BackupNotifier
+  File "/Users/jhs/logic-backup-app/notifier.py", line 12, in <module>
+    class BackupNotifier:
+  File "/Users/jhs/logic-backup-app/notifier.py", line 18, in BackupNotifier
+    def send_email(self, subject: str, body: str, attachment: Path | None = None) -> None:
+TypeError: unsupported operand type(s) for |: 'type' and 'NoneType'
+Traceback (most recent call last):
+  File "/Users/jhs/logic-backup-app/main.py", line 14, in <module>
+    from notifier import BackupNotifier
+  File "/Users/jhs/logic-backup-app/notifier.py", line 12, in <module>
+    class BackupNotifier:
+  File "/Users/jhs/logic-backup-app/notifier.py", line 18, in BackupNotifier
+    def send_email(self, subject: str, body: str, attachment: Path | None = None) -> None:
+TypeError: unsupported operand type(s) for |: 'type' and 'NoneType'
+Traceback (most recent call last):
+  File "/Users/jhs/logic-backup-app/main.py", line 14, in <module>
+    from notifier import BackupNotifier
+  File "/Users/jhs/logic-backup-app/notifier.py", line 12, in <module>
+    class BackupNotifier:
+  File "/Users/jhs/logic-backup-app/notifier.py", line 18, in BackupNotifier
+    def send_email(self, subject: str, body: str, attachment: Path | None = None) -> None:
+TypeError: unsupported operand type(s) for |: 'type' and 'NoneType'
+Traceback (most recent call last):
+  File "/Users/jhs/logic-backup-app/main.py", line 14, in <module>
+    from notifier import BackupNotifier
+  File "/Users/jhs/logic-backup-app/notifier.py", line 12, in <module>
+    class BackupNotifier:
+  File "/Users/jhs/logic-backup-app/notifier.py", line 18, in BackupNotifier
+    def send_email(self, subject: str, body: str, attachment: Path | None = None) -> None:
+TypeError: unsupported operand type(s) for |: 'type' and 'NoneType'
+Traceback (most recent call last):
+  File "/Users/jhs/logic-backup-app/main.py", line 14, in <module>
+    from notifier import BackupNotifier
+  File "/Users/jhs/logic-backup-app/notifier.py", line 12, in <module>
+    class BackupNotifier:
+  File "/Users/jhs/logic-backup-app/notifier.py", line 18, in BackupNotifier
+    def send_email(self, subject: str, body: str, attachment: Path | None = None) -> None:
+TypeError: unsupported operand type(s) for |: 'type' and 'NoneType'
+Traceback (most recent call last):
+  File "/Users/jhs/logic-backup-app/main.py", line 14, in <module>
+    from notifier import BackupNotifier
+  File "/Users/jhs/logic-backup-app/notifier.py", line 12, in <module>
+    class BackupNotifier:
+  File "/Users/jhs/logic-backup-app/notifier.py", line 18, in BackupNotifier
+    def send_email(self, subject: str, body: str, attachment: Path | None = None) -> None:
+TypeError: unsupported operand type(s) for |: 'type' and 'NoneType'
+Traceback (most recent call last):
+  File "/Users/jhs/logic-backup-app/main.py", line 14, in <module>
+    from notifier import BackupNotifier
+  File "/Users/jhs/logic-backup-app/notifier.py", line 12, in <module>
+    class BackupNotifier:
+  File "/Users/jhs/logic-backup-app/notifier.py", line 18, in BackupNotifier
+    def send_email(self, subject: str, body: str, attachment: Path | None = None) -> None:
+TypeError: unsupported operand type(s) for |: 'type' and 'NoneType'
+Traceback (most recent call last):
+  File "/Users/jhs/logic-backup-app/main.py", line 14, in <module>
+    from notifier import BackupNotifier
+  File "/Users/jhs/logic-backup-app/notifier.py", line 12, in <module>
+    class BackupNotifier:
+  File "/Users/jhs/logic-backup-app/notifier.py", line 18, in BackupNotifier
+    def send_email(self, subject: str, body: str, attachment: Path | None = None) -> None:
+TypeError: unsupported operand type(s) for |: 'type' and 'NoneType'
+Traceback (most recent call last):
+  File "/Users/jhs/logic-backup-app/main.py", line 14, in <module>
+    from notifier import BackupNotifier
+  File "/Users/jhs/logic-backup-app/notifier.py", line 12, in <module>
+    class BackupNotifier:
+  File "/Users/jhs/logic-backup-app/notifier.py", line 18, in BackupNotifier
+    def send_email(self, subject: str, body: str, attachment: Path | None = None) -> None:
+TypeError: unsupported operand type(s) for |: 'type' and 'NoneType'
